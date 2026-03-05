@@ -1,33 +1,28 @@
 Package: MRTool
-Title: Simulating Data for Mendelian Randomization Scenarios Based on Genotype Data
+Title: Simulating Data for Mendelian Randomization Scenarios Based on
+    Genotype Data
 Version: 0.0.0.9000
 Authors@R: c(
-    person(given = "Anne-Sophie",
-           family = "Kieslinger",
-           role = c("aut", "cre"),
-           email = "anne.kieslinger@gmail.com"),
-    person(given = "Carl",
-           family = "Beuchel",
-           role = c("aut"),
-           email = "first.last@example.com")
-           )
-Description: This package can be used to simulate data in R for 
-    Mendelian Randomization scenarios including confounder, 
-    exposure and outcome. Recommended MR package is 
-    MendelianRandomization.
-Encoding: UTF-8
-LazyData: true
+    person("Anne-Sophie", "Kieslinger", , "anne.kieslinger@gmail.com", role = c("aut", "cre")),
+    person("Carl", "Beuchel", , "first.last@example.com", role = "aut")
+  )
+Description: This package can be used to simulate data in R for Mendelian
+    Randomization scenarios including confounder, exposure and outcome.
+    Recommended MR package is MendelianRandomization.
 License: GPL (>= 3)
-RoxygenNote: 7.3.3
-VignetteBuilder: knitr
 Imports: 
-    data.table, 
-    foreach, 
-    broom, 
+    broom,
+    data.table,
+    foreach,
     MendelianRandomization
 Suggests: 
-    pdftools,
-    knitr,
-    rmarkdown,
     ggplot2,
-    parallel
+    knitr,
+    parallel,
+    pdftools,
+    rmarkdown
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
