@@ -5,13 +5,11 @@ Authors@R: c(
     person(given = "Anne-Sophie",
            family = "Kieslinger",
            role = c("aut", "cre"),
-           email = "anne.kieslinger@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID")),
+           email = "anne.kieslinger@gmail.com"),
     person(given = "Carl",
            family = "Beuchel",
            role = c("aut"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "first.last@example.com")
            )
 Description: This package can be used to simulate data in R for 
     Mendelian Randomization scenarios including confounder, 
