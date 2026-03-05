@@ -24,17 +24,10 @@ Imports:
     data.table, 
     foreach, 
     broom, 
+    MendelianRandomization
+Suggests: 
+    pdftools,
     knitr,
     rmarkdown,
-    MendelianRandomization, 
     ggplot2,
     parallel
-Depends: 
-    stats,
-    utils,
-    datasets,
-    methods,
-    base,
-    pdftools
-
-
