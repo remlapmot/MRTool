@@ -11,9 +11,6 @@ get_corrs(genedose_test, method = "pearson")
 
 \item{method}{used to compute correlation coefficient. 'pearson' (default), 'kendall' or 'spearman'}
 }
-\value{
-
-}
 \description{
 returns 2 snps each that have lowest,
 positive high, positive low, negative high, negative low correlation. uses pearson correlation

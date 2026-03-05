@@ -2,8 +2,18 @@
 % Please edit documentation in R/MRTool.R
 \docType{package}
 \name{MRTool}
+\alias{MRTool-package}
 \alias{MRTool}
 \title{MRTool: A package to simulate data for mendelian randomization}
 \description{
 For examples see vignette browseVignettes('MRTool')
+}
+\author{
+\strong{Maintainer}: Anne-Sophie Kieslinger \email{anne.kieslinger@gmail.com}
+
+Authors:
+\itemize{
+  \item Carl Beuchel \email{first.last@example.com}
+}
+
 }

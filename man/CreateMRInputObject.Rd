@@ -9,9 +9,6 @@ CreateMRInputObject(MR_data = my_MR_data, MR_Scenario = "V1", correlation = T)
 \arguments{
 \item{correlation}{}
 }
-\value{
-
-}
 \description{
 For examples see vignette browseVignettes('MRTool')
 }

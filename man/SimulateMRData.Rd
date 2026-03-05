@@ -9,9 +9,6 @@ SimulateMRData(SNP_data = SNP_data, SNP = NULL, Parameters = NULL)
 \arguments{
 \item{Parameters}{}
 }
-\value{
-
-}
 \description{
 For examples see vignette browseVignettes('MRTool')
 }

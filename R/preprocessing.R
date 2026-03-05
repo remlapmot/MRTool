@@ -7,9 +7,8 @@
 #' @param genedose_test snp datatable. first two columns identifiers
 #' @param method used to compute correlation coefficient. 'pearson' (default), 'kendall' or 'spearman'
 #' @return
-#'
+#' @importFrom stats cor
 #' @export
-#'
 get_corrs <- function(genedose_test,method='pearson') {
 
   snp_names <- names(genedose_test)[-(1:2)]

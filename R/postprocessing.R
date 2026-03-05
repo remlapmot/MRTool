@@ -21,7 +21,7 @@
 #'     Am Ende des datatable sind die pves.
 #'
 #' @export
-#'
+#' @importFrom stats median var
 transform_results <-
   function(results, SNP, iterations, pve_grid, rev = FALSE) {
     ###---- processing of regression results-----------------------------------------------------------------------

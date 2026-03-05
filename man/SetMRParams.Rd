@@ -21,9 +21,6 @@ SetMRParams(
 \arguments{
 \item{maf}{}
 }
-\value{
-
-}
 \description{
 Create a testplan for different parameter combinations
 or create a custom plan for different IV parameters. If Vary_between_SNP, The Parameters set

@@ -75,6 +75,7 @@ sim_and_mr <- function(SNP_data, SNP,  my_Parameters,reverse=FALSE) {
 #' @export
 #'
 #' @importFrom foreach %do%
+#' @importFrom stats as.formula lm residuals rnorm
 #' @import data.table
 SimulateMRData <- function(SNP_data = SNP_data,
                            # The genetic data
@@ -387,7 +388,7 @@ SimulateMRData <- function(SNP_data = SNP_data,
 #'
 #' @return
 #' @export
-#'
+#' @importFrom stats cov
 CreateMRInputObject <- function(MR_data = my_MR_data,
                                 MR_Scenario = "V1",
                                 correlation = T) {
