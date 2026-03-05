@@ -35,6 +35,7 @@ Depends:
     utils,
     datasets,
     methods,
-    base
+    base,
+    pdftools
 
 
