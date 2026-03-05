@@ -85,7 +85,7 @@ SimulateMRData <- function(SNP_data = SNP_data,
   # set the weight to the error in the data generation
 
   if (is.null(Parameters) ||
-      is.na(Parameters)) {
+      identical(Parameters, NA)) {
     stop(
       "Please create an parameter object via the SetMRParams() function and supply it to the function as 'Parameters =' or select >2 SNP for the analysis."
     )
