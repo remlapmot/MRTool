@@ -18,6 +18,7 @@ Imports:
 Suggests: 
     ggplot2,
     knitr,
+    magick,
     parallel,
     pdftools,
     rmarkdown
